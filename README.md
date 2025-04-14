@@ -85,11 +85,11 @@ curl -X GET http://localhost:8000/api/responses/ \
 
 ---
 
-## Uso de la API
+## Iniciar
 1. Ejecutar el servidor de desarrollo
 Para iniciar el servidor de desarrollo de Django:
 ```bash
-python [manage.py](http://_vscodecontentref_/5) runserver
+python manage.py runserver
 ```
 
 Accede a la aplicación en tu navegador en http://127.0.0.1:8000.
