@@ -54,8 +54,7 @@ Sigue las instrucciones para ingresar un nombre de usuario, correo electrónico 
 ---
 
 ## Uso de la API
-1. Obtener un token de autenticación
-La aplicación utiliza autenticación basada en tokens. Para obtener un token:
+1. Obtener un token de autenticación. La aplicación utiliza autenticación basada en tokens. Para obtener un token:
 
 - Accede a la URL: http://localhost:8000/api-token-auth/
 - Envía una solicitud POST con las credenciales del usuario:
@@ -70,8 +69,7 @@ Ejemplo de respuesta:
 }
 ```
 
-2. Usar el token en las solicitudes
-Incluye el token en el encabezado de tus solicitudes para autenticarte:
+2. Usar el token en las solicitudes. Incluye el token en el encabezado de tus solicitudes para autenticarte:
 ```bash
 Key: Authorization
 Value: Token <tu_token>
@@ -86,8 +84,7 @@ curl -X GET http://localhost:8000/api/responses/ \
 ---
 
 ## Iniciar
-1. Ejecutar el servidor de desarrollo
-Para iniciar el servidor de desarrollo de Django:
+1. Para iniciar el servidor de desarrollo de Django:
 ```bash
 python manage.py runserver
 ```
@@ -105,8 +102,7 @@ python manage.py test app
 ---
 
 ## Uso con Docker
-1. Construir la imagen Docker
-Construye la imagen Docker del proyecto:
+1. Construir la imagen Docker:
 ```bash
 docker build -t pt-webtools .
 ```
